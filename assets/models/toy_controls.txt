@@ -1,0 +1,124 @@
+d_sbl2 toggle 3.0 -0.3241 0.9289 1.2422
+d_sbl1 toggle 3.0 -0.3628 0.9289 1.2422
+takeoff toggle 3.0 -0.3629 1.0528 1.1012
+handbrake toggle 1.2 0.3519 0.9676 1.1982
+power toggle 3.0 -0.5176 0.9344 1.2249
+power.cover toggle 3.0 -0.5174 0.9419 1.2191
+repair press 1.5 0.7421 1.0053 -0.8819
+door toggle 3.0 -0.5179 0.9262 -1.2215
+lock toggle 3.0 -0.4402 0.9262 -1.2215
+fastreturn press 3.0 -0.3195 1.1017 0.9713
+hads toggle 1.5 0.8024 0.9644 -1.0220
+flight toggle 3.0 -0.2566 1.1413 -0.7946
+float toggle 2.0 -1.1883 0.9371 -0.3784
+pilot toggle 1.5 -0.9280 1.0170 0.6304
+selector press 1.5 0.7776 0.9638 0.8546
+spin press 2.0 -0.8033 0.9715 -0.8806
+step turn 1.2 0.7220 1.0302 -0.5470
+stabiliser turn 1.5 0.9410 0.9632 -0.5311
+d_ls5 toggle 5.0 0.3060 1.0621 -0.9466 toggle SPARE_LEVER_5 PULL
+d_sbm1 toggle 3.0 -0.2351 0.9486 -1.1095
+d_sb1 toggle 3.0 -0.2147 0.9486 -1.1095
+d_sb2 toggle 3.0 -0.1943 0.9486 -1.1095
+d_sb3 toggle 3.0 -0.1738 0.9486 -1.1095
+d_sb4 toggle 3.0 -0.1534 0.9486 -1.1095
+d_sb5 toggle 3.0 -0.1330 0.9486 -1.1095
+d_sb6 toggle 3.0 -0.1126 0.9486 -1.1095
+d_sw1 toggle 3.0 -0.0921 0.9486 -1.1095 toggle SWITCH_1 FLICK
+d_sw2 toggle 3.0 -0.0717 0.9486 -1.1095 toggle SWITCH_2 FLICK
+d_sb11 toggle 3.0 0.0669 0.9486 -1.1095
+d_sb12 toggle 3.0 0.0874 0.9486 -1.1095
+d_sb13 toggle 3.0 0.1078 0.9486 -1.1095
+d_sb14 toggle 3.0 0.1282 0.9486 -1.1095
+d_sb15 toggle 3.0 0.1486 0.9486 -1.1095
+d_sb16 toggle 3.0 0.1691 0.9486 -1.1095
+d_sw3 toggle 3.0 0.1895 0.9486 -1.1095 toggle SWITCH_3 FLICK
+d_sw4 toggle 3.0 0.2099 0.9486 -1.1095 toggle SWITCH_4 FLICK
+d_sw5 toggle 3.0 0.2303 0.9486 -1.1095 toggle SWITCH_5 FLICK
+d_sb7 toggle 3.0 -0.6970 1.1366 -0.2887 toggle CIRCUIT_7 FLICK
+d_sb8 toggle 3.0 -0.6798 1.1366 -0.3185 toggle CIRCUIT_8 FLICK
+d_sb9 toggle 3.0 -0.6174 1.1366 -0.4266 toggle CIRCUIT_9 FLICK
+d_sb10 toggle 3.0 -0.6003 1.1366 -0.4564 toggle CIRCUIT_10 FLICK
+d_sw6 toggle 3.0 -0.5831 1.1366 -0.4861 toggle SWITCH_6 FLICK
+d_sw7 toggle 3.0 -0.7142 1.1366 -0.2589 toggle SWITCH_7 FLICK
+d_bp5 turn 1.2 -0.2388 0.9327 -1.2272
+d_bp6 turn 1.2 -0.1196 0.9327 -1.2272
+d_bp7 turn 1.2 0.0002 0.9327 -1.2272
+d_bp8 turn 1.2 0.1180 0.9327 -1.2272
+d_bp9 turn 1.2 0.2401 0.9327 -1.2272 knob SPARE_KNOB TURN
+d_bp10 turn 0.65 1.2125 0.9909 -0.2416 knob SPARE_KNOB CRANK
+d_ls1 toggle 3.0 0.1650 1.1189 0.7560 toggle SPARE_LEVER_1 PULL
+d_ls2 toggle 3.0 0.0825 1.1193 0.7568 toggle SPARE_LEVER_2 PULL
+d_ls3 toggle 3.0 -0.0000 1.1195 0.7570 toggle SPARE_LEVER_3 PULL
+d_ls4 toggle 3.0 -0.0826 1.1202 0.7571 toggle SPARE_LEVER_4 PULL
+d_ls6 toggle 3.0 -0.1649 1.1200 0.7567 toggle SPARE_LEVER_6 PULL
+d_kp9 toggle 3.0 1.0662 0.9405 0.4781
+d_kp6 toggle 3.0 1.0466 0.9497 0.4668
+x- toggle 3.0 1.0270 0.9589 0.4554
+d_kp1 toggle 3.0 1.0074 0.9681 0.4441
+d_kp10 toggle 3.0 1.0540 0.9405 0.4992
+z- toggle 3.0 1.0344 0.9497 0.4879
+d_kp4 toggle 3.0 1.0148 0.9589 0.4766
+z+ toggle 3.0 0.9952 0.9681 0.4652
+d_kp11 toggle 3.0 1.0418 0.9405 0.5203
+d_kp7 toggle 3.0 1.0222 0.9497 0.5090
+x+ toggle 3.0 1.0026 0.9589 0.4977
+d_kp2 toggle 3.0 0.9830 0.9681 0.4863
+d_kp12 toggle 3.0 1.0296 0.9405 0.5414
+d_kp8 toggle 3.0 1.0100 0.9497 0.5301
+d_kp5 toggle 3.0 0.9904 0.9589 0.5188
+d_kp3 toggle 3.0 0.9708 0.9681 0.5074
+d_sbp1 toggle 3.0 0.5509 1.1201 0.5832 toggle RELAY_1 THROW
+d_sbp2 toggle 3.0 0.6478 1.1201 0.4159 toggle RELAY_2 THROW
+d_sbp3 toggle 3.0 0.7438 1.1201 0.2490 toggle RELAY_3 THROW
+d_sbp4 toggle 3.0 0.0575 1.0342 1.0139 toggle RELAY_4 THROW
+d_sbp5 toggle 3.0 -0.0577 1.0339 1.0139 toggle RELAY_5 THROW
+d_sbp27 toggle 3.0 -0.0000 1.0624 0.9346 toggle RELAY_27 THROW
+d_sbp6 toggle 3.0 0.9056 1.0497 0.3044 toggle RELAY_6 SLIDE
+d_sbp7 toggle 3.0 0.8474 1.0675 0.3200 toggle RELAY_7 SLIDE
+d_sbp8 toggle 3.0 0.7784 1.0590 0.4816 toggle RELAY_8 SLIDE
+d_sbp17 toggle 3.0 0.7940 1.0849 0.3412 toggle RELAY_17 SLIDE
+d_sbp18 toggle 3.0 0.7864 1.0785 0.3860 toggle RELAY_18 SLIDE
+d_sbp19 toggle 3.0 0.7795 1.0713 0.4330 toggle RELAY_19 SLIDE
+d_sbp9 toggle 3.0 -0.0869 1.0017 -0.9542 toggle RELAY_9 FLIP
+d_sbp10 toggle 3.0 0.0864 1.0017 -0.9542 toggle RELAY_10 FLIP
+d_sbp11 toggle 3.0 0.1442 1.0017 -0.9542 toggle RELAY_11 FLIP
+d_sbp20 toggle 3.0 0.0285 1.0029 -0.9543 toggle RELAY_20 FLIP
+d_sbp21 toggle 3.0 -0.0293 1.0029 -0.9543 toggle RELAY_21 FLIP
+d_sbp22 toggle 3.0 -0.1450 1.0029 -0.9543 toggle RELAY_22 FLIP
+d_sbp12 toggle 3.0 1.2758 0.9115 0.2151 toggle RELAY_12 PRESS
+d_sbp23 toggle 3.0 1.2012 0.9084 0.3427 toggle RELAY_23 PRESS
+d_sbp24 toggle 3.0 1.2511 0.9129 0.2575 toggle RELAY_24 PRESS
+d_sbp25 toggle 3.0 1.2266 0.9129 0.3001 toggle RELAY_25 PRESS
+d_sbp26 toggle 3.0 1.1774 0.9129 0.3852 toggle RELAY_26 PRESS
+d_sbp13 toggle 3.0 0.1194 1.0144 1.0124 toggle RELAY_13 PRESS
+d_sbp14 toggle 3.0 -0.1194 1.0144 1.0124 toggle RELAY_14 PRESS
+d_sbp15 toggle 3.0 0.3018 1.0486 0.9208 toggle RELAY_15 TURN
+d_sbp16 toggle 3.0 0.5382 1.1449 -0.6027 toggle RELAY_16 TURN
+d_sw8 toggle 3.0 -3.6244 0.9725 1.7352 toggle SWITCH_8 CRANK
+d_sw9 toggle 3.0 -3.5353 0.9756 1.9002 toggle SWITCH_9 CRANK
+d_sw10 toggle 3.0 -3.4422 0.9700 2.0590 toggle SWITCH_10 CRANK
+d_sw11 toggle 3.0 4.0023 0.9725 -0.3835 toggle SWITCH_11 CRANK
+d_sw12 toggle 3.0 3.9756 0.9756 -0.5690 toggle SWITCH_12 CRANK
+d_sw13 toggle 3.0 3.9427 0.9700 -0.7500 toggle SWITCH_13 CRANK
+d_sw14 toggle 3.0 0.7177 1.0151 0.7684 toggle SWITCH_14 CRANK
+d_sw15 toggle 3.0 0.7764 1.1418 -0.1626 toggle SWITCH_15 CRANK
+d_sw16 toggle 3.0 -0.5449 1.1259 -0.6169 toggle SWITCH_16 CRANK
+d_sw17 toggle 3.0 -0.8169 1.1176 -0.1688 toggle SWITCH_17 CRANK
+d_sw18 toggle 3.0 0.7853 0.9836 0.7750 toggle SWITCH_18 FLIP
+d_sw19 toggle 3.0 0.8356 0.9614 0.7943 toggle SWITCH_19 FLIP
+d_sw20 toggle 3.0 0.8688 0.9422 0.8294 toggle SWITCH_20 FLIP
+d_sw21 toggle 3.0 0.4508 0.9693 -1.1390 toggle SWITCH_21 FLICK
+d_sw22 toggle 3.0 -0.3250 1.0929 -0.9085 toggle SWITCH_22 FLICK
+d_sw23 toggle 3.0 0.3374 0.9625 -1.2677 toggle SWITCH_23 PULL
+d_sw24 toggle 3.0 -0.3370 0.9625 -1.2677 toggle SWITCH_24 PULL
+d_sw25 toggle 3.0 0.2301 1.1249 -0.8221 toggle SWITCH_25 PUSH
+d_sw26 toggle 3.0 -1.1651 0.9716 -0.2544 toggle SWITCH_26 TURN
+d_sw27 toggle 3.0 -0.9214 0.9367 -0.8387 toggle SWITCH_27 TURN
+d_sw28 toggle 3.0 0.6599 1.0138 0.8378 toggle SWITCH_28 FLICK
+rotor travel 0.5 0 0 0
+rings travel 0.075 0 0 0
+ticks idle 0.5 0 0 0
+gears3 idle 0.9 0 0 0
+monitor static 0 1.0117 1.5538 -0.5762 0.8609 -0.1088 -0.4970
+doors door 2 0.0000 1.15 -8.0771

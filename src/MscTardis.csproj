@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>MscTardis</AssemblyName>
+    <RootNamespace>MscTardis</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <!-- no debug symbols / build paths in the shipped dll (they contain the local user folder) -->
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=src</PathMap>
+  </PropertyGroup>
+  <!-- Dev tooling (Dev*.cs and the #if DEV blocks) is compiled only where Dev.cs exists: the private tree, never the public one. -->
+  <PropertyGroup Condition="Exists('$(MSBuildProjectDirectory)\Dev.cs')"><DefineConstants>$(DefineConstants);DEV</DefineConstants></PropertyGroup>
+  <!-- The game: pass Managed and GameMods (-p:Managed=..., -p:GameMods=...), or GAME as an environment variable or
+       -p:GAME=..., else Steam's own library. -->
+  <PropertyGroup>
+    <GAME Condition="'$(GAME)' == '' And '$(Managed)' == '' And '$(OS)' == 'Windows_NT'">$([MSBuild]::GetRegistryValue('HKEY_CURRENT_USER\Software\Valve\Steam', 'SteamPath'))/steamapps/common/My Summer Car</GAME>
+    <Managed Condition="'$(Managed)' == ''">$(GAME)\mysummercar_Data\Managed</Managed>
+    <GameMods Condition="'$(GameMods)' == ''">$(GAME)\Mods</GameMods>
+  </PropertyGroup>
+  <Target Name="CheckGame" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(Managed)\MSCLoader.dll')" Text="My Summer Car with MSCLoader not found: $(Managed)\MSCLoader.dll is missing. Set GAME to the game's folder (environment variable or -p:GAME=...), or install MSCLoader into the game." />
+  </Target>
+  <!-- the mod icon, handed to MSCLoader as Mod.Icon -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\assets\icon.png" LogicalName="MscTardis.icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net35" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MSCLoader"><HintPath>$(Managed)\MSCLoader.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="PlayMaker"><HintPath>$(Managed)\PlayMaker.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(Managed)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(Managed)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="cInput"><HintPath>$(Managed)\cInput.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <!-- `dotnet build -c Release -p:Deploy=true` copies the dll and assets into the game's Mods folder -->
+  <Target Name="DeployToGame" AfterTargets="Build" Condition="'$(Deploy)' == 'true'">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GameMods)" />
+    <ItemGroup><ModAssets Include="..\assets\models\*.obj;..\assets\models\*.txt;..\assets\models\*.dwm;..\assets\tex\*.png;..\assets\tex\*.jpg;..\assets\tex\*.txt;..\assets\sfx\*.wav;..\assets\sfx\*.ogg" /></ItemGroup>
+    <Copy SourceFiles="@(ModAssets)" DestinationFolder="$(GameMods)\Assets\$(AssemblyName)" SkipUnchangedFiles="true" Condition="'@(ModAssets)' != ''" />
+  </Target>
+</Project>

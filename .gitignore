@@ -1,0 +1,18 @@
+# Build output (debug symbols hold local paths)
+bin/
+obj/
+*.pdb
+*.mdb
+*.user
+
+# Per machine
+local.mk
+repo.txt
+*.log
+*.sav
+.env
+.env.*
+
+# Editor state
+.vs/
+.vscode/

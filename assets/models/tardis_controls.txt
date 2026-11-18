@@ -1,0 +1,319 @@
+control d_kp1 -0.2523 1.2925 -0.9318 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_1
+control z+ -0.2003 1.2935 -0.9295 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push -
+control d_kp2 -0.1483 1.2946 -0.9271 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_3
+control d_kp3 -0.0963 1.2956 -0.9247 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_A
+control x- -0.2497 1.2716 -0.9795 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push -
+control d_kp4 -0.1977 1.2726 -0.9771 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_5
+control x+ -0.1457 1.2737 -0.9747 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push -
+control d_kp5 -0.0937 1.2747 -0.9723 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_B
+control d_kp6 -0.2471 1.2507 -1.0271 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_7
+control z- -0.1951 1.2517 -1.0247 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push -
+control d_kp7 -0.1431 1.2528 -1.0223 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_9
+control d_kp8 -0.0911 1.2538 -1.0199 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_C
+control d_kp9 -0.2445 1.2298 -1.0747 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_*
+control d_kp10 -0.1925 1.2308 -1.0723 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_0
+control d_kp11 -0.1405 1.2319 -1.0700 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_#
+control d_kp12 -0.0885 1.2329 -1.0676 -0.0500 0.4015 0.9145 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0119 0.0000 -0.0042 push KEY_D
+control d_tg1 0.1075 1.2286 -1.0666 0.0600 0.4013 0.9140 0.0000 0.9156 -0.4020 1 0 0 0.0000 0.0488 0.0000 0.7000 toggle FILTER:_SHARP|FILTER:_BROAD
+control d_tg2 0.1971 1.2265 -1.0715 0.0600 0.4013 0.9140 0.0000 0.9156 -0.4020 1 0 0 0.0000 0.0488 0.0000 0.7000 toggleon BFO:_ON|BFO:_OFF
+control selector 0.3075 1.2121 -1.0815 0.0600 0.4013 0.9140 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0553 0.0000 1.0000
+control step 0.4003 1.2052 -1.0973 0.0600 0.4013 0.9140 0.0000 0.9156 -0.4020 0 1 0 0.0000 0.0156 0.0000 1.0000
+control power 0.8420 1.2527 -0.6088 0.8123 -0.4017 -0.4228 0.3481 0.9156 -0.2010 1 0 0 -0.0001 0.0163 -0.0017 0.8341
+control power.cover 0.8023 1.3011 -0.5891 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 1 0 0 -0.0000 0.0201 -0.0402 0.9699
+control d_kn1 0.8707 1.2502 -0.5269 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0330 0.0000 1.0000 knob TRIM
+control d_kn2 0.8999 1.2522 -0.4673 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0330 0.0000 1.0000 knob GAIN
+control d_kn3 0.9491 1.2529 -0.3787 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0600 0.0000 1.0000 knob DAMPING
+control d_kn4 0.9438 1.2102 -0.5825 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0330 0.0000 1.0000 knob BALANCE
+control d_pb1 0.8982 1.2106 -0.6599 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0180 0.0000 -0.0045 push BOOST
+control d_pb2 0.9913 1.2099 -0.5017 -0.8123 0.4017 0.4228 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0180 0.0000 -0.0045 push PURGE
+control stabiliser 0.6155 1.3387 -0.5286 -0.7930 0.4020 0.4578 0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0900 0.0000 1.0000
+control flight 0.8275 1.3332 -0.3352 0.9053 -0.3840 -0.1814 0.3481 0.9156 -0.2010 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control aux2 0.8475 1.3430 -0.2558 0.9053 -0.3840 -0.1814 0.3481 0.9156 -0.2010 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control aux3 0.8676 1.3528 -0.1763 0.9053 -0.3840 -0.1814 0.3481 0.9156 -0.2010 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control d_bp1 0.9897 1.2577 0.2618 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0116 0.0000 1.0000 knob TUNING
+control d_bp2 0.9496 1.2577 0.3311 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0116 0.0000 1.0000 knob GAIN
+control d_bp3 1.0515 1.2264 0.2975 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0116 0.0000 1.0000 knob FILTER
+control d_bp4 1.0115 1.2264 0.3668 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0116 0.0000 1.0000 knob VOLUME
+control d_bpt1 0.9069 1.2655 0.3949 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0203 0.0000 0.5000 toggle AERIAL
+control float 0.9577 1.2503 0.4242 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0303 0.0000 0.6000
+control d_bpt2 0.9956 1.2206 0.4460 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0203 0.0000 0.5000 toggle SQUELCH
+control d_bpb1 0.9234 1.2173 0.4887 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0217 0.0000 -0.0036 push CALL
+control d_bpb2 1.0384 1.1796 0.4608 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0217 0.0000 -0.0036 push TEST
+control d_bp5 0.8514 1.2348 0.6005 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0108 0.0000 1.0000 knob BIAS
+control d_bp6 0.8219 1.2348 0.6516 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0108 0.0000 1.0000 knob DRIFT
+control d_bp7 0.8970 1.2117 0.6268 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0108 0.0000 1.0000 knob PHASE
+control d_bp8 0.8675 1.2117 0.6779 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0108 0.0000 1.0000 knob OFFSET
+control d_bpt3 0.7908 1.2414 0.6988 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0189 0.0000 0.5000 toggle LAMP
+control d_bpt4 0.8257 1.2237 0.7190 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0189 0.0000 0.5000 toggle HEAT
+control d_bpt5 0.8561 1.2083 0.7365 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 1 0 0 0.0000 0.0189 0.0000 0.5000 toggle FEED
+control d_bpb3 0.8016 1.2024 0.7672 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0203 0.0000 -0.0034 push SIGNAL
+control d_bpb4 0.8864 1.1747 0.7466 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0203 0.0000 -0.0034 push PRESS
+control d_ph1 0.6559 1.3807 0.4021 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_1
+control d_ph2 0.6757 1.3707 0.4135 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_4
+control d_ph3 0.6926 1.3620 0.4233 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_7
+control d_ph4 0.7124 1.3520 0.4347 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_*
+control d_ph5 0.6444 1.3807 0.4220 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_2
+control d_ph6 0.6642 1.3707 0.4334 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_5
+control d_ph7 0.6811 1.3620 0.4432 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_8
+control d_ph8 0.7009 1.3520 0.4546 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_0
+control d_ph9 0.6314 1.3807 0.4444 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_3
+control d_ph10 0.6512 1.3707 0.4558 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_6
+control d_ph11 0.6682 1.3620 0.4656 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_9
+control d_ph12 0.6880 1.3520 0.4770 -0.7930 0.4020 -0.4578 0.3481 0.9156 0.2010 0 1 0 0.0000 0.0046 0.0000 -0.0029 push DIAL_#
+control door 0.0550 1.2363 1.0862 0.0000 -0.4020 0.9156 -0.0000 0.9156 0.4020 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control lock -0.0500 1.2363 1.0862 0.0000 -0.4020 0.9156 -0.0000 0.9156 0.4020 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control hads -0.1550 1.2363 1.0862 0.0000 -0.4020 0.9156 -0.0000 0.9156 0.4020 1 0 0 -0.0001 0.0206 -0.0021 0.8341
+control spin -0.3100 1.2195 1.0836 0.1987 0.3940 -0.8974 0.0000 0.9156 0.4020 0 1 0 0.0000 0.0300 0.0000 1.0000
+control d_sb1 -1.0412 1.2720 -0.2259 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_1
+control d_sb2 -1.0282 1.2720 -0.2485 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_2
+control d_sb3 -0.9823 1.2720 -0.3280 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_3
+control d_sb4 -0.9688 1.2720 -0.3514 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_4
+control d_sb5 -0.9006 1.2720 -0.4694 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_5
+control d_sb6 -0.8860 1.2720 -0.4948 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_6
+control d_sb7 -0.8360 1.2720 -0.5813 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_7
+control d_sb8 -0.8225 1.2720 -0.6047 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_8
+control d_sb9 -0.7154 1.2720 -0.7902 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.5730 toggle CIRCUIT_9
+control d_sb10 -0.7015 1.2720 -0.8143 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.8185 toggleon CIRCUIT_10
+control d_sbl1 -0.7733 1.2687 -0.6870 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0162 0.0000 -0.0050 push INDICATOR_1
+control d_sbl2 -0.7598 1.2687 -0.7103 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0162 0.0000 -0.0050 push INDICATOR_2
+control d_sbm1 -0.9262 1.2819 -0.4338 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0252 0.0000 0.4911 toggle MASTER
+control d_sb11 -1.0823 1.2404 -0.2989 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_1
+control d_sb12 -1.0663 1.2404 -0.3266 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_2
+control d_sb13 -1.0472 1.2404 -0.3597 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_3
+control d_sb14 -1.0305 1.2404 -0.3886 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_4
+control d_sb15 -1.0114 1.2404 -0.4217 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_5
+control d_sb16 -0.9957 1.2404 -0.4490 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_6
+control d_sb17 -0.9378 1.2404 -0.5491 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_7
+control d_sb18 -0.9207 1.2404 -0.5788 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_8
+control d_sb19 -0.9079 1.2404 -0.6010 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_9
+control d_sb20 -0.8845 1.2404 -0.6415 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_10
+control d_sb21 -0.8638 1.2404 -0.6774 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_11
+control d_sb22 -0.8467 1.2404 -0.7070 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_12
+control d_sb23 -0.8274 1.2404 -0.7405 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_13
+control d_sb24 -0.8112 1.2404 -0.7685 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0126 0.0000 0.4093 toggle BREAKER_14
+control d_sbp1 -1.0838 1.2271 -0.3388 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_1 ff291a
+control d_sbp2 -1.1041 1.2168 -0.3505 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_2 ff291a
+control d_sbp3 -1.0485 1.2271 -0.4000 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_3 ff9414
+control d_sbp4 -1.0688 1.2168 -0.4117 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_4 ff9414
+control d_sbp5 -1.0122 1.2271 -0.4627 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_5 38ff4d
+control d_sbp6 -1.0326 1.2168 -0.4745 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_6 38ff4d
+control d_sbp7 -0.9751 1.2271 -0.5270 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_7 408cff
+control d_sbp8 -0.9954 1.2168 -0.5388 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_8 408cff
+control d_sbp9 -0.9387 1.2271 -0.5901 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_9 fff2cc
+control d_sbp10 -0.9590 1.2168 -0.6019 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_10 fff2cc
+control d_sbp11 -0.9015 1.2271 -0.6544 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_11 ff291a
+control d_sbp12 -0.9219 1.2168 -0.6662 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_12 ff291a
+control d_sbp13 -0.8649 1.2271 -0.7180 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_13 ff9414
+control d_sbp14 -0.8852 1.2168 -0.7297 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_14 ff9414
+control d_sbp15 -0.8289 1.2271 -0.7803 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_15 38ff4d
+control d_sbp16 -0.8492 1.2168 -0.7921 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_16 38ff4d
+control d_sbp17 -0.7935 1.2271 -0.8415 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_17 408cff
+control d_sbp18 -0.8139 1.2168 -0.8533 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_18 408cff
+control d_sbp19 -0.7580 1.2271 -0.9031 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushliton RELAY_19 fff2cc
+control d_sbp20 -0.7783 1.2168 -0.9148 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0090 0.0000 -0.0045 pushlit RELAY_20 fff2cc
+control d_sbr1 -1.1241 1.2067 -0.3621 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0086 0.0000 -0.0043 pushlit RESET_1 ff291a
+control d_sbr2 -0.9790 1.2067 -0.6134 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0086 0.0000 -0.0043 pushliton RESET_2 ff291a
+control d_sbr3 -0.8339 1.2067 -0.8648 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 0 1 0 0.0000 0.0086 0.0000 -0.0043 pushlit RESET_3 ff291a
+control d_sbs1 -1.0751 1.2452 -0.2714 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0030 0.0000 1.0000 toggle SELECT_1
+control d_sbs2 -0.9322 1.2452 -0.5189 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0030 0.0000 1.0000 toggle SELECT_2
+control d_sbs3 -0.7849 1.2452 -0.7741 0.7930 0.4020 0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0000 0.0030 0.0000 1.0000 toggle SELECT_3
+control fastreturn -1.1820 1.2332 -0.1928 -0.7930 -0.4020 -0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0003 0.0024 -0.0002 0.3087
+control room -1.1595 1.2332 -0.2318 -0.7930 -0.4020 -0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0003 0.0024 -0.0002 0.3087
+control repair -1.1370 1.2332 -0.2708 -0.7930 -0.4020 -0.4578 -0.3481 0.9156 -0.2010 1 0 0 0.0003 0.0024 -0.0002 0.3087
+control handbrake 0.9937 0.2200 -1.1634 -0.6446 0.1219 0.7547 0.0791 0.9925 -0.0927 1 0 0 0.0000 1.0750 0.0000 0.2000
+control d_lp1 0.4289 1.4284 -0.7834 -0.4879 0.2189 0.8450 0.1094 0.9758 -0.1895 0 1 0 0.0000 0.0182 0.0000 -0.0039 push LAMP_TEST
+control landnow 0.4779 1.4288 -0.7528 -0.4879 0.2189 0.8450 0.1094 0.9758 -0.1895 0 1 0 0.0000 0.0182 0.0000 -0.0039 push -
+control d_lp2 0.4574 1.4156 -0.8329 -0.4879 0.2189 0.8450 0.1094 0.9758 -0.1895 0 1 0 0.0000 0.0182 0.0000 -0.0039 push RESET
+control estop 0.5074 1.4156 -0.8040 -0.4879 0.2189 0.8450 0.1094 0.9758 -0.1895 0 1 0 0.0000 0.0182 0.0000 -0.0039 push -
+control d_lh1 0.6476 1.4041 -0.8783 -0.4879 0.2189 0.8450 0.1094 0.9758 -0.1895 1 0 0 0.0000 0.3315 0.0000 0.7200 toggle SPARE_LEVER
+control pilot -0.4474 1.0350 -1.4799 0.0000 -1.0000 0.0000 -0.2894 0.0000 -0.9572 1 0 0 0.0000 0.1600 -0.2178 0.6429
+control d_ct1 -0.2676 1.4596 -0.6851 0.2937 0.3050 0.9060 0.9432 0.0618 -0.3265 0 1 0 0.0000 0.0150 0.0000 -0.0060 push COUNTER_RESET
+control takeoff 1.0047 1.4271 -0.0200 0.9758 -0.2189 -0.0000 0.2189 0.9758 0.0000 1 0 0 -0.0320 0.2110 0.0080 2.5714
+control fan 1.0047 1.4271 0.0280 0.9758 -0.2189 -0.0000 0.2189 0.9758 0.0000 1 0 0 -0.0300 0.0000 0.0000 1.0000
+control d_cp1 0.5131 1.3702 0.7888 -0.4873 0.2243 -0.8440 0.1121 0.9745 0.1942 0 1 0 0.0000 0.0600 0.0000 -0.0120 push PLUNGER
+control d_cb1 -0.8315 1.3965 0.0400 0.9635 0.2677 -0.0000 -0.2677 0.9635 0.0000 0 1 0 0.0000 0.0750 0.0000 -0.0090 push PRESS_SWITCH
+mesh d_kp1 m tardis_k_d_kp1_m_ctl_keypad_0.dwm ctl_keypad
+mesh z+ m tardis_k_zp_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp2 m tardis_k_d_kp2_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp3 m tardis_k_d_kp3_m_ctl_keypad_0.dwm ctl_keypad
+mesh x- m tardis_k_xn_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp4 m tardis_k_d_kp4_m_ctl_keypad_0.dwm ctl_keypad
+mesh x+ m tardis_k_xp_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp5 m tardis_k_d_kp5_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp6 m tardis_k_d_kp6_m_ctl_keypad_0.dwm ctl_keypad
+mesh z- m tardis_k_zn_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp7 m tardis_k_d_kp7_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp8 m tardis_k_d_kp8_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp9 m tardis_k_d_kp9_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp10 m tardis_k_d_kp10_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp11 m tardis_k_d_kp11_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_kp12 m tardis_k_d_kp12_m_ctl_keypad_0.dwm ctl_keypad
+mesh d_tg1 m tardis_k_d_tg1_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh d_tg2 m tardis_k_d_tg2_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh selector s tardis_k_selector_s_ctl_bronze_tube_0.dwm ctl_bronze_tube
+mesh selector m tardis_k_selector_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh selector m tardis_k_selector_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh selector m tardis_k_selector_m_ctl_steel_1e1e1e_0.dwm ctl_steel
+mesh step m tardis_k_step_m_ctl_spoolw_0.dwm ctl_spoolw
+mesh step m tardis_k_step_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh power s tardis_k_power_s_don_newswitches_0.dwm don_newswitches
+mesh power m tardis_k_power_m_don_newswitches_0.dwm don_newswitches
+mesh power.cover m tardis_k_power_cover_m_don_details_0.dwm don_details
+mesh power.cover s tardis_k_power_cover_s_ctl_steel_0.dwm ctl_steel
+mesh d_kn1 m tardis_k_d_kn1_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_kn1 m tardis_k_d_kn1_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh d_kn2 m tardis_k_d_kn2_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_kn2 m tardis_k_d_kn2_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh d_kn3 m tardis_k_d_kn3_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_kn3 m tardis_k_d_kn3_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh d_kn4 m tardis_k_d_kn4_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_kn4 m tardis_k_d_kn4_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh d_pb1 m tardis_k_d_pb1_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_pb2 m tardis_k_d_pb2_m_ctl_plastic_cap_b2190f_0.dwm ctl_plastic_cap
+mesh stabiliser m tardis_k_stabiliser_m_ctl_wheel_0.dwm ctl_wheel
+mesh stabiliser m tardis_k_stabiliser_m_ctl_spoolw_0.dwm ctl_spoolw
+mesh stabiliser s tardis_k_stabiliser_s_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh flight s tardis_k_flight_s_don_newswitches_0.dwm don_newswitches
+mesh flight m tardis_k_flight_m_don_newswitches_0.dwm don_newswitches
+mesh aux2 s tardis_k_aux2_s_don_newswitches_0.dwm don_newswitches
+mesh aux2 m tardis_k_aux2_m_don_newswitches_0.dwm don_newswitches
+mesh aux3 s tardis_k_aux3_s_don_newswitches_0.dwm don_newswitches
+mesh aux3 m tardis_k_aux3_m_don_newswitches_0.dwm don_newswitches
+mesh d_bp1 m tardis_k_d_bp1_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp1 m tardis_k_d_bp1_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp2 m tardis_k_d_bp2_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp2 m tardis_k_d_bp2_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp3 m tardis_k_d_bp3_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp3 m tardis_k_d_bp3_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp4 m tardis_k_d_bp4_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp4 m tardis_k_d_bp4_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bpt1 m tardis_k_d_bpt1_m_silver_0.dwm silver
+mesh float s tardis_k_float_s_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh float m tardis_k_float_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_bpt2 m tardis_k_d_bpt2_m_silver_0.dwm silver
+mesh d_bpb1 m tardis_k_d_bpb1_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bpb1 m tardis_k_d_bpb1_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh d_bpb2 m tardis_k_d_bpb2_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bpb2 m tardis_k_d_bpb2_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh d_bp5 m tardis_k_d_bp5_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp5 m tardis_k_d_bp5_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp6 m tardis_k_d_bp6_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp6 m tardis_k_d_bp6_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp7 m tardis_k_d_bp7_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp7 m tardis_k_d_bp7_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bp8 m tardis_k_d_bp8_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bp8 m tardis_k_d_bp8_m_ctl_knurl_0.dwm ctl_knurl
+mesh d_bpt3 m tardis_k_d_bpt3_m_silver_0.dwm silver
+mesh d_bpt4 m tardis_k_d_bpt4_m_silver_0.dwm silver
+mesh d_bpt5 m tardis_k_d_bpt5_m_silver_0.dwm silver
+mesh d_bpb3 m tardis_k_d_bpb3_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bpb3 m tardis_k_d_bpb3_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh d_bpb4 m tardis_k_d_bpb4_m_ctl_blackplate_0.dwm ctl_blackplate
+mesh d_bpb4 m tardis_k_d_bpb4_m_ctl_bakelite_0.dwm ctl_bakelite
+mesh d_ph1 m tardis_k_d_ph1_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph2 m tardis_k_d_ph2_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph3 m tardis_k_d_ph3_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph4 m tardis_k_d_ph4_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph5 m tardis_k_d_ph5_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph6 m tardis_k_d_ph6_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph7 m tardis_k_d_ph7_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph8 m tardis_k_d_ph8_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph9 m tardis_k_d_ph9_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph10 m tardis_k_d_ph10_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph11 m tardis_k_d_ph11_m_ctl_phone_0.dwm ctl_phone
+mesh d_ph12 m tardis_k_d_ph12_m_ctl_phone_0.dwm ctl_phone
+mesh door s tardis_k_door_s_don_newswitches_0.dwm don_newswitches
+mesh door m tardis_k_door_m_don_newswitches_0.dwm don_newswitches
+mesh lock s tardis_k_lock_s_don_newswitches_0.dwm don_newswitches
+mesh lock m tardis_k_lock_m_don_newswitches_0.dwm don_newswitches
+mesh hads s tardis_k_hads_s_don_newswitches_0.dwm don_newswitches
+mesh hads m tardis_k_hads_m_don_newswitches_0.dwm don_newswitches
+mesh spin s tardis_k_spin_s_ctl_bronze_tube_0.dwm ctl_bronze_tube
+mesh spin m tardis_k_spin_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh spin m tardis_k_spin_m_ctl_plastic_cap_eae0b7_0.dwm ctl_plastic_cap
+mesh d_sb1 m tardis_k_d_sb1_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb2 m tardis_k_d_sb2_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb3 m tardis_k_d_sb3_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb4 m tardis_k_d_sb4_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb5 m tardis_k_d_sb5_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb6 m tardis_k_d_sb6_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb7 m tardis_k_d_sb7_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb8 m tardis_k_d_sb8_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb9 m tardis_k_d_sb9_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sb10 m tardis_k_d_sb10_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_sbl1 m tardis_k_d_sbl1_m_dark_metal_0.dwm dark_metal
+mesh d_sbl1 m tardis_k_d_sbl1_m_ctl_plastic_cap_b2190f_0.dwm ctl_plastic_cap
+mesh d_sbl2 m tardis_k_d_sbl2_m_dark_metal_0.dwm dark_metal
+mesh d_sbl2 m tardis_k_d_sbl2_m_ctl_plastic_cap_b2190f_0.dwm ctl_plastic_cap
+mesh d_sbm1 m tardis_k_d_sbm1_m_silver_0.dwm silver
+mesh d_sb11 m tardis_k_d_sb11_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb12 m tardis_k_d_sb12_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb13 m tardis_k_d_sb13_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb14 m tardis_k_d_sb14_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb15 m tardis_k_d_sb15_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb16 m tardis_k_d_sb16_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb17 m tardis_k_d_sb17_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb18 m tardis_k_d_sb18_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb19 m tardis_k_d_sb19_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb20 m tardis_k_d_sb20_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb21 m tardis_k_d_sb21_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb22 m tardis_k_d_sb22_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb23 m tardis_k_d_sb23_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sb24 m tardis_k_d_sb24_m_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh d_sbp1 m tardis_k_d_sbp1_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp2 m tardis_k_d_sbp2_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp3 m tardis_k_d_sbp3_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp4 m tardis_k_d_sbp4_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp5 m tardis_k_d_sbp5_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp6 m tardis_k_d_sbp6_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp7 m tardis_k_d_sbp7_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp8 m tardis_k_d_sbp8_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp9 m tardis_k_d_sbp9_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp10 m tardis_k_d_sbp10_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp11 m tardis_k_d_sbp11_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp12 m tardis_k_d_sbp12_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp13 m tardis_k_d_sbp13_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp14 m tardis_k_d_sbp14_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp15 m tardis_k_d_sbp15_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp16 m tardis_k_d_sbp16_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp17 m tardis_k_d_sbp17_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp18 m tardis_k_d_sbp18_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp19 m tardis_k_d_sbp19_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbp20 m tardis_k_d_sbp20_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbr1 m tardis_k_d_sbr1_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbr2 m tardis_k_d_sbr2_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh d_sbr3 m tardis_k_d_sbr3_m_ctl_plastic_cap_f2efe5_0.dwm ctl_plastic_cap
+mesh fastreturn s tardis_k_fastreturn_s_don_details_0.dwm don_details
+mesh fastreturn m tardis_k_fastreturn_m_don_details_0.dwm don_details
+mesh room s tardis_k_room_s_don_details_0.dwm don_details
+mesh room m tardis_k_room_m_don_details_0.dwm don_details
+mesh repair s tardis_k_repair_s_don_details_0.dwm don_details
+mesh repair m tardis_k_repair_m_don_details_0.dwm don_details
+mesh handbrake s tardis_k_handbrake_s_ctl_cast_alu_0.dwm ctl_cast_alu
+mesh handbrake s tardis_k_handbrake_s_ctl_steel_0.dwm ctl_steel
+mesh handbrake s tardis_k_handbrake_s_ctl_bronze_tube_0.dwm ctl_bronze_tube
+mesh handbrake s tardis_k_handbrake_s_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh handbrake m tardis_k_handbrake_m_ctl_spoolw_0.dwm ctl_spoolw
+mesh handbrake m tardis_k_handbrake_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh handbrake m tardis_k_handbrake_m_ctl_plastic_cap_eabc1e_0.dwm ctl_plastic_cap
+mesh d_lp1 m tardis_k_d_lp1_m_ctl_leverpanel_0.dwm ctl_leverpanel
+mesh landnow m tardis_k_landnow_m_ctl_leverpanel_0.dwm ctl_leverpanel
+mesh d_lp2 m tardis_k_d_lp2_m_ctl_leverpanel_0.dwm ctl_leverpanel
+mesh estop m tardis_k_estop_m_ctl_leverpanel_0.dwm ctl_leverpanel
+mesh d_lh1 m tardis_k_d_lh1_m_ctl_steel_0.dwm ctl_steel
+mesh d_lh1 m tardis_k_d_lh1_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh pilot s tardis_k_pilot_s_ctl_steel_9e846b_0.dwm ctl_steel
+mesh pilot s tardis_k_pilot_s_ctl_bronze_tube_0.dwm ctl_bronze_tube
+mesh pilot m tardis_k_pilot_m_ctl_steel_9e846b_0.dwm ctl_steel
+mesh pilot m tardis_k_pilot_m_ctl_bakelite_soft_0.dwm ctl_bakelite_soft
+mesh d_ct1 m tardis_k_d_ct1_m_silver_0.dwm silver
+mesh takeoff s tardis_k_takeoff_s_ctl_steel_72665b_0.dwm ctl_steel
+mesh takeoff s tardis_k_takeoff_s_ctl_steel_0.dwm ctl_steel
+mesh takeoff m tardis_k_takeoff_m_ctl_bakelite_soft_8c8c93_0.dwm ctl_bakelite_soft
+mesh takeoff m tardis_k_takeoff_m_ctl_steel_0.dwm ctl_steel
+mesh takeoff m tardis_k_takeoff_m_ctl_phone_cream_b28e5b_0.dwm ctl_phone_cream
+mesh fan r tardis_k_fan_r_ctl_phone_cream_e0e0d1_0.dwm ctl_phone_cream
+mesh fan r tardis_k_fan_r_ctl_bakelite_soft_8c8c93_0.dwm ctl_bakelite_soft
+mesh fan r tardis_k_fan_r_ctl_steel_0.dwm ctl_steel
+mesh d_cp1 m tardis_k_d_cp1_m_silver_0.dwm silver
+mesh d_cb1 m tardis_k_d_cb1_m_ctl_phone_cream_0.dwm ctl_phone_cream
